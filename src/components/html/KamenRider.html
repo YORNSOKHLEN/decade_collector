@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title>Kamen Rider</title>
+  </head>
+  <body class="bg-[#06070C] text-white">
+    <header
+      class="bg-[#06070D] fixed flex top-0 left-0 justify-between items-center w-full"
+    >
+      <div class="flex justify-between gap-10 items-center w-1/2 mx-4">
+        <img src="../assets/icon/sort.png" alt="Menu" />
+        <div class="relative">
+          <a href="../index.html">
+            <img
+              src="../assets/images/Logo/Logo-White.png"
+              alt="Logo"
+              class="h-[88px]"
+            />
+          </a>
+        </div>
+        <div class="relative justify-items-start">
+          <input
+            type="text"
+            placeholder="Search products"
+            class="border-2 border-[#585858] rounded-md py-1.5 pl-10 pr-16 bg-[#06070D] text-white text-sm"
+          />
+        </div>
+      </div>
+      <img
+        src="../assets/images/Logo/Profile.jpg"
+        alt="Profile"
+        class="w-10 h-10 rounded-full mx-10"
+      />
+    </header>
+
+    <main class="w-full mt-[90px] flex justify-center">
+      <div class="w-11/12">
+        <section class="mt-4 grid grid-cols-3 gap-7 uppercase">
+          <!-- Card Example with Flex Grow -->
+          <article
+            class="mb-7 hover:scale-110 transition-transform duration-300 bg-gray-800 p-4 rounded-lg"
+          >
+            <div
+              class="uppercase py-1 mb-3 flex justify-center rounded-sm bg-[#38A93B]"
+            >
+              in stock
+            </div>
+            <div class="grid justify-items-center">
+              <a href="#">
+                <img
+                  src="./assets/images/KamenRider/Geats/Geats1/Geats1.png"
+                  alt="DX Desire Driver"
+                  class="rounded-xl mb-3 h-72"
+                  id="Geats1"
+                  onmouseover="new_Geats1()"
+                  onmouseout="old_Geats1()"
+                />
+              </a>
+            </div>
+            <div class="flex items-center">
+              <!-- Sibling Element 1 -->
+              <div class="flex-none text-gray-500 pr-2">Limited Edition:</div>
+              <!-- Flex Grow Element -->
+              <span
+                class="flex-grow text-base text-gray-300 text-center whitespace-normal break-words"
+              >
+                DX Desire Driver with Additional Features and Bonus Accessories
+              </span>
+              <!-- Sibling Element 2 -->
+              <div class="flex-none text-gray-500 pl-2">In Stock</div>
+            </div>
+            <div class="flex justify-between items-center mx-1 mt-5">
+              <div>
+                <span class="font-bold text-2xl">$85.00</span>
+              </div>
+              <div class="text-xl flex gap-2">
+                <button id="top1">
+                  <i class="fas fa-heart" onclick="set_color1()"></i>
+                </button>
+                <button>
+                  <i class="fas fa-link"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              class="mt-4 items-center py-3 border-[1px] rounded-xl hover:border-[#38A93B] hover:text-[#38A93B]"
+            >
+              <a href="#" class="w-full flex justify-around uppercase"
+                >Add to cart <i class="fas fa-basket-shopping"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="mb-7 hover:scale-110 transition-transform duration-300 bg-gray-800 p-4 rounded-lg flex flex-col"
+          >
+            <!-- In Stock Badge -->
+            <div
+              class="uppercase py-1 mb-3 flex justify-center rounded-sm bg-[#38A93B]"
+            >
+              in stock
+            </div>
+
+            <!-- Product Image -->
+            <div class="grid justify-items-center">
+              <a href="#">
+                <img
+                  src="./assets/images/KamenRider/Geats/Geats1/Geats1.png"
+                  alt="DX Desire Driver"
+                  class="rounded-xl mb-3 h-72"
+                  id="Geats1"
+                  onmouseover="new_Geats1()"
+                  onmouseout="old_Geats1()"
+                />
+              </a>
+            </div>
+
+            <!-- Product Description -->
+            <div class="flex items-center mb-4">
+              <div class="flex-none text-gray-500 pr-2">Limited Edition:</div>
+              <span
+                class="flex-grow text-base text-gray-300 text-center whitespace-normal break-words"
+              >
+                DX Desire Driverreeeeeee
+              </span>
+              <div class="flex-none text-gray-500 pl-2">In Stock</div>
+            </div>
+
+            <!-- Price and Icons -->
+            <div class="flex justify-between items-center mx-1 mt-auto">
+              <div>
+                <span class="font-bold text-2xl">$85.00</span>
+              </div>
+              <div class="text-xl flex gap-2">
+                <button id="top1">
+                  <i class="fas fa-heart" onclick="set_color1()"></i>
+                </button>
+                <button>
+                  <i class="fas fa-link"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <div
+              class="mt-4 py-3 border-[1px] rounded-xl hover:border-[#38A93B] hover:text-[#38A93B] flex justify-around uppercase"
+            >
+              <a href="#" class="w-full text-center">
+                Add to cart <i class="fas fa-basket-shopping"></i>
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="mb-7 hover:scale-110 transition-transform duration-300 bg-gray-800 p-4 rounded-lg"
+          >
+            <div
+              class="uppercase py-1 mb-3 flex justify-center rounded-sm bg-[#38A93B]"
+            >
+              in stock
+            </div>
+            <div class="grid justify-items-center">
+              <a href="#">
+                <img
+                  src="./assets/images/KamenRider/Geats/Geats1/Geats1.png"
+                  alt="DX Desire Driver"
+                  class="rounded-xl mb-3 h-72"
+                  id="Geats1"
+                  onmouseover="new_Geats1()"
+                  onmouseout="old_Geats1()"
+                />
+              </a>
+            </div>
+            <div class="flex items-center">
+              <!-- Sibling Element 1 -->
+              <div class="flex-none text-gray-500 pr-2">Limited Edition:</div>
+              <!-- Flex Grow Element -->
+              <span
+                class="flex-grow text-base text-gray-300 text-center whitespace-normal break-words"
+              >
+                DX Desire Driver with Additional Features and Bonus Accessories
+              </span>
+              <!-- Sibling Element 2 -->
+              <div class="flex-none text-gray-500 pl-2">In Stock</div>
+            </div>
+            <div class="flex justify-between items-center mx-1 mt-5">
+              <div>
+                <span class="font-bold text-2xl">$85.00</span>
+              </div>
+              <div class="text-xl flex gap-2">
+                <button id="top1">
+                  <i class="fas fa-heart" onclick="set_color1()"></i>
+                </button>
+                <button>
+                  <i class="fas fa-link"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              class="mt-4 items-center py-3 border-[1px] rounded-xl hover:border-[#38A93B] hover:text-[#38A93B]"
+            >
+              <a href="#" class="w-full flex justify-around uppercase"
+                >Add to cart <i class="fas fa-basket-shopping"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="mb-7 hover:scale-110 transition-transform duration-300 bg-gray-800 p-4 rounded-lg"
+          >
+            <div
+              class="uppercase py-1 mb-3 flex justify-center rounded-sm bg-[#38A93B]"
+            >
+              in stock
+            </div>
+            <div class="grid justify-items-center">
+              <a href="#">
+                <img
+                  src="./assets/images/KamenRider/Geats/Geats1/Geats1.png"
+                  alt="DX Desire Driver"
+                  class="rounded-xl mb-3 h-72"
+                  id="Geats1"
+                  onmouseover="new_Geats1()"
+                  onmouseout="old_Geats1()"
+                />
+              </a>
+            </div>
+            <div class="flex items-center">
+              <!-- Sibling Element 1 -->
+              <div class="flex-none text-gray-500 pr-2">Limited Edition:</div>
+              <!-- Flex Grow Element -->
+              <span
+                class="flex-grow text-base text-gray-300 text-center whitespace-normal break-words"
+              >
+                DX Desire Driver with Additional Features and Bonus Accessories
+              </span>
+              <!-- Sibling Element 2 -->
+              <div class="flex-none text-gray-500 pl-2">In Stock</div>
+            </div>
+            <div class="flex justify-between items-center mx-1 mt-5">
+              <div>
+                <span class="font-bold text-2xl">$85.00</span>
+              </div>
+              <div class="text-xl flex gap-2">
+                <button id="top1">
+                  <i class="fas fa-heart" onclick="set_color1()"></i>
+                </button>
+                <button>
+                  <i class="fas fa-link"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              class="mt-4 items-center py-3 border-[1px] rounded-xl hover:border-[#38A93B] hover:text-[#38A93B]"
+            >
+              <a href="#" class="w-full flex justify-around uppercase"
+                >Add to cart <i class="fas fa-basket-shopping"></i
+              ></a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
