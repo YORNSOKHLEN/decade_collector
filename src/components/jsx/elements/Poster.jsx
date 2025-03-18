@@ -20,7 +20,7 @@ const Poster = () => {
   //   setCurrentId((prevId) => (prevId - 1) % DataPoster.length);
   // };
   return (
-    <div className="h-[480px] z-0 mb-3">
+    <div className="h-[480px] z-0 mb-3 px-10">
       <div className="relative z-0 mx-7 overflow-hidden rounded-lg md:h-[480.11px]">
         {DataPoster.map((po, id) => (
           <img

@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: parseInt(process.env.VITE_PORT) || 3000, // Default to 3000 if not set
+    historyApiFallback: true, // Fixes React Router page refresh issues
   },
 });

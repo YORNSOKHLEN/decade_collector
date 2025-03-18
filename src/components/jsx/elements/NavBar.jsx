@@ -39,7 +39,7 @@ const NavBar = () => {
   };
   const activeMenu = getActiveMenu();
   return (
-    <div className="bg-[#16191E] top-0 py-[13.5px]">
+    <div className="bg-[#16191E] sticky top-[88px] py-[13.5px] z-20">
       <h1 className="mx-7 text-2xl uppercase">{activeMenu}</h1>
     </div>
   );

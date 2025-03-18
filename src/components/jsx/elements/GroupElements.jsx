@@ -6,15 +6,15 @@ import GroupProduct from "../product/GroupProduct";
 import Footer from "./Footer";
 const GroupElements = () => {
   return (
-    <div className="w-full mt-[90px] flex">
-      <GroupMenu />
-      <div className="w-full ml-[60px]">
+    <>
+      <div>
+        <GroupMenu />
         <NavBar />
         <GroupSerieMovie />
         <GroupProduct />
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 

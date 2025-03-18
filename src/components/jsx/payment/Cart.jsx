@@ -10,15 +10,9 @@ const Card = () => {
   return (
     <>
       <Header />
-      <div className="w-full mt-[90px] flex">
-        <GroupMenu />
-        <div className="w-full ml-[60px]">
-          <NavBar />
-          <GroupSerieMovie />
-          <GroupCard />
-          <Footer />
-        </div>
-      </div>
+      <GroupSerieMovie />
+      <GroupCard />
+      <Footer />
     </>
   );
 };

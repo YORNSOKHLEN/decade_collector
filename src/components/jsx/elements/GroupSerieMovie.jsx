@@ -4,7 +4,7 @@ import DataTitle from "../../js/dataTitle";
 
 const GroupSerieMovie = () => {
   return (
-    <div className="flex space-x-8 uppercase text-xl mx-7 py-3 items-center">
+    <div className="flex space-x-8 uppercase text-xl mx-7 py-3 items-center px-10">
       {DataTitle.map((t) => (
         <SerieMovie {...t} key={t.id} />
       ))}

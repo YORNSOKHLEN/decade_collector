@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const SerieMovie = ({ titleSerie, link, movies, icon, imgMovie, id }) => {
   const hoverStyles = {
-    KR: "left-[60px]",
-    MCU: "right-[85px]",
-    DCU: "right-[150px]",
+    KR: "left-[40px]",
+    MCU: "right-1/4",
+    DCU: "right-1/4",
     SPS: "right-[60px]",
   };
 

@@ -47,7 +47,7 @@ const GroupMenu = () => {
     <>
       <div
         id="menu"
-        className="fixed bg-[#06070D] w-[60px] h-screen border-r-2 border-gray-400"
+        className=" sticky top-[88px] bg-[#06070D] w-[60px] h-screen border-r-2 border-gray-400"
       >
         {menuIcons.map((item) => (
           <Menu
