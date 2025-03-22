@@ -8,8 +8,8 @@ const Decade = () => {
   const [color, setColor] = useState(false);
   const [count, setCount] = useState(1);
   return (
-    <div className="flex gap-10 mx-7 mt-10">
-      <div className=" grid grid-cols-1">
+    <div className="flex gap-10 mx-7 mt-10 ">
+      <div className=" grid grid-cols-1 sticky">
         {DataDecade.map((d) => (
           <GroupDecade {...d} key={d.id} />
         ))}
@@ -110,7 +110,7 @@ const Decade = () => {
       </div>
       <div className=" w-[50px] justify-items-center">
         {Follow.map((f) => (
-          <img src={f.img} key={f.id} className="w-6 h-6 my-5" />
+          <img src={f.img} key={f.id} className="w-8 my-5" />
         ))}
       </div>
     </div>

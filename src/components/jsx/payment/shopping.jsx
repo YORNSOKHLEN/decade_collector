@@ -8,10 +8,10 @@ const Shopping = () => {
   return (
     <div className="max-w-7xl mx-auto pt-8 pb-3 flex">
       <div className="w-1/2 border-r border-gray-700 pr-8 mx-5">
-        <div className="flex mb-6 gap-40">
-          <Link to={"/card"}>
+        <div className=" justify-items-center">
+          {/* <Link to={"/card"}>
             <i className="fas fa-arrow-left text-white mr-4 cursor-pointer mb-1 top-0"></i>
-          </Link>
+          </Link> */}
           <h2 className="text-xl font-semibold mb-6">Order Summary</h2>
         </div>
         <div>

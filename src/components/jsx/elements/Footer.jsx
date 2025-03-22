@@ -125,7 +125,7 @@ const Footer = () => {
                 <img
                   src={Tiktok}
                   alt="Tiktok"
-                  className="h-9 hover:opacity-70"
+                  className="h-8 hover:opacity-70"
                 />
               </Link>
               <Link to="#">
@@ -139,7 +139,7 @@ const Footer = () => {
                 <img
                   src={Youtube}
                   alt="Youtube"
-                  className="h-9 hover:opacity-70"
+                  className="h-8 hover:opacity-70"
                 />
               </Link>
             </div>
