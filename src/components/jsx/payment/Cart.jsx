@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Decade from "../../../assets/images/kamen_rider/decade/decade1/Decade1.png";
-import Khqr from "../../../assets/images/logo/ba.png";
+// import Khqr from "../../../assets/images/logo/ba.png";
 import Aba from "../../../assets/images/logo/aba.png";
 import Acleda from "../../../assets/images/logo/acleda.jpg";
 
@@ -117,13 +117,13 @@ const Card = () => {
                         <p>100% Secure Payments</p>
                       </span>
                       <div className="flex gap-1 justify-center pb-3">
-                        <span className="left-0 mt-3 flex gap-2 items-center">
+                        {/* <span className="left-0 mt-3 flex gap-2 items-center">
                           <img
                             src={Khqr}
                             alt="KHQR"
                             className="w-[50px] h-[40px] bg-white rounded-md"
                           />
-                        </span>
+                        </span> */}
                         <span className="left-0 mt-3 flex gap-2 items-center">
                           <img
                             src={Aba}
