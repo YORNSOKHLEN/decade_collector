@@ -1,5 +1,5 @@
 import React from "react";
-import Khqr from "../../../assets/images/logo/ba.png";
+// import Khqr from "../../../assets/images/logo/ba.png";
 import Aba from "../../../assets/images/logo/aba.png";
 import Acleda from "../../../assets/images/logo/acleda.jpg";
 import Telegram from "../../../assets/icon/telegram.png";
@@ -51,14 +51,14 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-2xl font-bold">PAYMENT</h2>
-            <Link to="#1" className="left-0 mt-3 flex gap-2 items-center">
+            {/* <Link to="#1" className="left-0 mt-3 flex gap-2 items-center">
               <img
                 src={Khqr}
                 alt="KHQR"
                 className="w-[40px] h-[30px] bg-white rounded-md"
               />
               <p>Bakong KHQR</p>
-            </Link>
+            </Link> */}
             <Link to="#1" className="left-0 mt-3 flex gap-2 items-center">
               <img
                 src={Aba}
