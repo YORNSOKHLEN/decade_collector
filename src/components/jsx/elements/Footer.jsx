@@ -1,5 +1,5 @@
 import React from "react";
-import Khqr from "../../../assets/images/logo/bakong.png";
+import Khqr from "../../../assets/images/logo/ba.png";
 import Aba from "../../../assets/images/logo/aba.png";
 import Acleda from "../../../assets/images/logo/acleda.jpg";
 import Telegram from "../../../assets/icon/telegram.png";
