@@ -110,7 +110,7 @@ const Decade = () => {
       </div>
       <div className=" w-[50px] justify-items-center">
         {Follow.map((f) => (
-          <img src={f.img} key={f.id} className="w-8 my-5" />
+          <img src={f.img} key={f.id} className="w-8 my-5 hover:opacity-70" />
         ))}
       </div>
     </div>

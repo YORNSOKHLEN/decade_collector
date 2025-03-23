@@ -1,8 +1,8 @@
 import React from "react";
-import LogoWhite from "../../../assets/images/Logo/Logo-White.png";
-import Khqr from "../../../assets/images/Logo/KHQR.png";
-import Aba from "../../../assets/images/Logo/aba.png";
-import Acleda from "../../../assets/images/Logo/acleda.jpg";
+import logoWhite from "../../../assets/images/logo/Logo-White.png";
+import Khqr from "../../../assets/images/logo/KHQR.png";
+import Aba from "../../../assets/images/logo/aba.png";
+import Acleda from "../../../assets/images/logo/acleda.jpg";
 import Telegram from "../../../assets/icon/telegram.png";
 import Messenger from "../../../assets/icon/messenger.png";
 import Email from "../../../assets/icon/email.png";
@@ -18,11 +18,11 @@ const Footer = () => {
   return (
     <footer className="bg-[#0b0c10] mt-8 pt-9 pb-3">
       <div className="flex justify-evenly mx-14">
-        <div>
+        {/* <div>
           <a href="#">
-            <img src={LogoWhite} alt="Logo" className="w-[282px] h-[110px]" />
+            <img src={logoWhite} alt="logo" className="w-[282px] h-[110px]" />
           </a>
-        </div>
+        </div> */}
         <div className="flex gap-20">
           <div>
             <h2 className="text-2xl font-bold uppercase">

@@ -1,13 +1,13 @@
-import Decade1 from "../../assets/images/KamenRider/Decade/Decade1/Decade1.png";
-import Decade2 from "../../assets/images/KamenRider/Decade/Decade1/Decade2.png";
-import Decade3 from "../../assets/images/KamenRider/Decade/Decade1/Decade3.png";
-import Decade4 from "../../assets/images/KamenRider/Decade/Decade1/Decade4.png";
-import Decade5 from "../../assets/images/KamenRider/Decade/Decade1/Decade5.png";
-import Decade6 from "../../assets/images/KamenRider/Decade/Decade1/Decade6.png";
-import Decade7 from "../../assets/images/KamenRider/Decade/Decade1/Decade7.png";
-import Decade8 from "../../assets/images/KamenRider/Decade/Decade1/Decade8.png";
-import Decade9 from "../../assets/images/KamenRider/Decade/Decade1/Decade9.png";
-import Decade10 from "../../assets/images/KamenRider/Decade/Decade1/Decade10.png";
+import Decade1 from "../../assets/images/kamen_rider/decade/decade1/Decade1.png";
+import Decade2 from "../../assets/images/kamen_rider/decade/decade1/Decade2.png";
+import Decade3 from "../../assets/images/kamen_rider/decade/decade1/Decade3.png";
+import Decade4 from "../../assets/images/kamen_rider/decade/decade1/Decade4.png";
+import Decade5 from "../../assets/images/kamen_rider/decade/decade1/Decade5.png";
+import Decade6 from "../../assets/images/kamen_rider/decade/decade1/Decade6.png";
+import Decade7 from "../../assets/images/kamen_rider/decade/decade1/Decade7.png";
+import Decade8 from "../../assets/images/kamen_rider/decade/decade1/Decade8.png";
+import Decade9 from "../../assets/images/kamen_rider/decade/decade1/Decade9.png";
+import Decade10 from "../../assets/images/kamen_rider/decade/decade1/Decade10.png";
 
 const detailDecade1 = [
   {
