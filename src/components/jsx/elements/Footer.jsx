@@ -1,5 +1,4 @@
 import React from "react";
-import logoWhite from "../../../assets/images/logo/Logo-White.png";
 import Khqr from "../../../assets/images/logo/KHQR.png";
 import Aba from "../../../assets/images/logo/aba.png";
 import Acleda from "../../../assets/images/logo/acleda.jpg";
