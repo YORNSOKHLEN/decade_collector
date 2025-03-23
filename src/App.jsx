@@ -7,6 +7,7 @@ import Home from "./components/jsx/elements/Home";
 import Cart from "./components/jsx/payment/Cart";
 import Shopping from "./components/jsx/payment/shopping";
 import Decade from "./components/jsx/decade/Decade";
+import KamenRider from "./components/jsx/elements/KamenRider";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/kamen-rider" element={<KamenRider />} />
         <Route path="/detail-decade" element={<Decade />} />
         <Route path="/shopping" element={<Shopping />} />
       </Routes>

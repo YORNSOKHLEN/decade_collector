@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "./Item";
-import Geats1 from "../../../assets/images/KamenRider/Geats/Geats1/Geats1.png";
-import Tycoon2 from "../../../assets/images/KamenRider/Geats/Tycoon1/Tycoon2.png";
+import Geats1 from "../../../assets/images/kamen_rider/geats/geats1/Geats1.png";
+import Tycoon2 from "../../../assets/images/kamen_rider/geats/tycoon1/Tycoon2.png";
 
 const GroupItem = () => {
   const ItemProduct = [

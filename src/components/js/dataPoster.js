@@ -1,9 +1,9 @@
-import AllKr from "../../assets/images/KamenRider/AllKamenRider.jpg";
-import AllDs from "../../assets/images/DemonSlayer/AllDemonSlayer.png";
-import AllJk from "../../assets/images/JujutsuKaisen/AllJujutsuKaisen.png";
-import AllMcu from "../../assets/images/MCU/AllMCU.png";
-import AllDcu from "../../assets/images/DCU/AllDCU.png";
-import AllSp from "../../assets/images/SuperSentai/AllSuperSentai.png";
+import AllKr from "../../assets/images/kamen_rider/AllKamenRider.jpg";
+import AllDs from "../../assets/images/demon_slayer/AllDemonSlayer.png";
+import AllJk from "../../assets/images/jujutsu_kaisen/AllJujutsuKaisen.png";
+import AllMcu from "../../assets/images/mcu/AllMCU.png";
+import AllDcu from "../../assets/images/dcu/AllDCU.png";
+import AllSp from "../../assets/images/super_sentai/AllSuperSentai.png";
 const Poster = [
   {
     id: 1,

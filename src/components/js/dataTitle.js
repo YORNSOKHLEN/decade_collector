@@ -1,23 +1,23 @@
-import KR from "../../assets/images/KamenRider/KRGavv/KamenRiderGavv.png";
-import MCU from "../../assets/images/MCU/MCU.png";
-import DCU from "../../assets/images/DCU/DCU.png";
-import SPSB from "../../assets/images/SuperSentai/Boonboomger.webp";
+import KR from "../../assets/images/kamen_rider/gavv/KamenRiderGavv.png";
+import MCU from "../../assets/images/mcu/MCU.png";
+import DCU from "../../assets/images/dcu/DCU.png";
+import SPSB from "../../assets/images/super_sentai/Boonboomger.webp";
 import React from "react";
 
 const titleOfMovie = [
   {
     id: "KR",
     titleSerie: "Kamen Rider",
-    link: "/home",
+    link: "/kamen-rider",
     movies: [
-      { title: "Kamen Rider Gavv", link: "./KamenRider/KamenRiderGavv.html" },
-      { title: "Kamen Rider Gotchard", link: "./KamenRiderGotchard.html" },
-      { title: "Kamen Rider Geats", link: "./KamenRiderGeats.html" },
-      { title: "Kamen Rider Revice", link: "./KamenRiderRevice.html" },
-      { title: "Kamen Rider Saber", link: "./KamenRiderSaber.html" },
-      { title: "Kamen Rider Zero One", link: "./KamenRiderZero-One.html" },
-      { title: "Kamen Rider Zi-o", link: "./KamenRiderZero-One.html" },
-      { title: "Kamen Rider Build", link: "./KamenRiderZero-One.html" },
+      { title: "Kamen Rider Gavv", link: "/kamen-rider-gavv" },
+      { title: "Kamen Rider Gotchard", link: "/kamen-rider-gotchard" },
+      { title: "Kamen Rider Geats", link: "/kamen-rider-geats" },
+      { title: "Kamen Rider Revice", link: "/kamen-rider-revice" },
+      { title: "Kamen Rider Saber", link: "/kamen-rider-saber" },
+      { title: "Kamen Rider Zero One", link: "/kamen-rider-zero-one" },
+      { title: "Kamen Rider Zi-o", link: "/kamen-rider-Zi-o" },
+      { title: "Kamen Rider Build", link: "/kamen-rider-build" },
     ],
     icon: React.createElement("i", { className: "fas fa-chevron-down" }),
     imgMovie: KR,

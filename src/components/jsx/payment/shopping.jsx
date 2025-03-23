@@ -1,6 +1,4 @@
 import React from "react";
-import Tycoon2 from "../../../assets/images/KamenRider/Geats/Tycoon1/Tycoon2.png";
-import { Link } from "react-router-dom";
 import GroupItem from "../product/GroupItem";
 // Correctly import the image
 
