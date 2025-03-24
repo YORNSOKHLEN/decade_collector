@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Decade from "../../../assets/images/kamen_rider/decade/decade1/decade1.png";
-import Khqr from "../../../assets/images/logo/ba.png";
+import Khqr from "../../../assets/images/logo/kh.png";
 import Aba from "../../../assets/images/logo/aba.png";
 import Acleda from "../../../assets/images/logo/acleda.jpg";
 
