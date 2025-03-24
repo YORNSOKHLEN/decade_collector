@@ -83,7 +83,7 @@ const Footer = () => {
               out to us at
               <span> </span>
               <Link
-                to={"/home"}
+                to={"/"}
                 className="text-[#38A93B] underline hover:opacity-70"
               >
                 decadecollector.com

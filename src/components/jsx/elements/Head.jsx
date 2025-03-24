@@ -19,7 +19,7 @@ const Head = () => {
               </button>
             </div>
             <div>
-              <Link to={"/home"}>
+              <Link to={"/"}>
                 <img src={LogoWhite} alt="Logo" className="h-[88px]" />
               </Link>
             </div>
