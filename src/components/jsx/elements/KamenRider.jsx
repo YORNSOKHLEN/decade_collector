@@ -12,7 +12,7 @@ const KamenRider = () => {
           <img
             src={AllKr}
             alt="All Kamen Rider"
-            className="w-full h-[450px] px-5"
+            className="w-full h-[450px] rounded-lg"
           />
         </div>
         <div className="border-y-2 border-gray-500 justify-items-center ">
