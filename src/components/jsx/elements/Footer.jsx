@@ -1,7 +1,7 @@
 import React from "react";
-// import Kh from "../../../assets/images/logo/kh.png";
-// import Aba from "../../../assets/images/logo/aba.png";
-// import Acleda from "../../../assets/images/logo/acleda.jpg";
+import Kh from "../../../assets/images/logo/kh.png";
+import Aba from "../../../assets/images/logo/aba.png";
+import Acleda from "../../../assets/images/logo/acleda.jpg";
 import Telegram from "../../../assets/icon/telegram.png";
 import Messenger from "../../../assets/icon/messenger.png";
 import Email from "../../../assets/icon/email.png";
@@ -49,7 +49,7 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          {/* <div>
+          <div>
             <h2 className="text-2xl font-bold">PAYMENT</h2>
             <Link to="#1" className="left-0 mt-3 flex gap-2 items-center">
               <img
@@ -75,7 +75,7 @@ const Footer = () => {
               />
               <p>ACLEDA Bank Plc</p>
             </Link>
-          </div> */}
+          </div>
           <div>
             <h2 className="text-2xl font-bold">CONTACT US</h2>
             <p>
