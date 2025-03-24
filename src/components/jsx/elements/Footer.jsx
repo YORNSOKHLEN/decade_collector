@@ -1,17 +1,17 @@
 import React from "react";
-import Khqr from "/src/assets/images/logo/ba.png";
-import Aba from "/src/assets/images/logo/aba.png";
-import Acleda from "/src/assets/images/logo/acleda.jpg";
-import Telegram from "/src/assets/icon/telegram.png";
-import Messenger from "/src/assets/icon/messenger.png";
-import Email from "/src/assets/icon/email.png";
-import Facebook from "/src/assets/icon/facebook.png";
-import Tiktok from "/src/assets/icon/tiktok.png";
-import Instagram from "/src/assets/icon/instagram.png";
-import Youtube from "/src/assets/icon/youtube.png";
+import Khqr from "../../../assets/images/logo/ba.png";
+import Aba from "../../../assets/images/logo/aba.png";
+import Acleda from "../../../assets/images/logo/acleda.jpg";
+import Telegram from "../../../assets/icon/telegram.png";
+import Messenger from "../../../assets/icon/messenger.png";
+import Email from "../../../assets/icon/email.png";
+import Facebook from "../../../assets/icon/facebook.png";
+import Tiktok from "../../../assets/icon/tiktok.png";
+import Instagram from "../../../assets/icon/instagram.png";
+import Youtube from "../../../assets/icon/youtube.png";
 import { Link } from "react-router-dom";
-import MoreSeries from "/src/js/moreSeries";
-import Policy from "/src/js/policyStore";
+import MoreSeries from "../../js/moreSeries";
+import Policy from "../../js/policyStore";
 
 const Footer = () => {
   return (

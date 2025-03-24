@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Decade from "/src/assets/images/kamen_rider/decade/decade1/decade1.png";
-import Khqr from "/src/assets/images/logo/ba.png";
-import Aba from "/src/assets/images/logo/aba.png";
-import Acleda from "/src/assets/images/logo/acleda.jpg";
+import Decade from "../../../assets/images/kamen_rider/decade/decade1/decade1.png";
+import Khqr from "../../../assets/images/logo/ba.png";
+import Aba from "../../../assets/images/logo/aba.png";
+import Acleda from "../../../assets/images/logo/acleda.jpg";
 
 const Card = () => {
   const [quantity, setQuantity] = useState(1);
