@@ -1,7 +1,7 @@
 import React from "react";
 import iconSort from "../../../assets/icon/sort.png";
-import LogoWhite from "../../../assets/images/Logo/Logo-White.png";
-import Profile from "../../../assets/images/Logo/Profile.jpg";
+import LogoWhite from "../../../assets/images/logo/Logo-White.png";
+import Profile from "../../../assets/images/logo/Profile.jpg";
 import { Link } from "react-router-dom";
 import { ShoppingCart, Heart } from "lucide-react";
 const Head = () => {
