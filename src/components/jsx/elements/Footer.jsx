@@ -10,8 +10,8 @@ import Tiktok from "/src/assets/icon/tiktok.png";
 import Instagram from "/src/assets/icon/instagram.png";
 import Youtube from "/src/assets/icon/youtube.png";
 import { Link } from "react-router-dom";
-import MoreSeries from "/src/components/js/moreSeries";
-import Policy from "/src/components/js/policyStore";
+import MoreSeries from "/src/js/moreSeries";
+import Policy from "/src/js/policyStore";
 
 const Footer = () => {
   return (
