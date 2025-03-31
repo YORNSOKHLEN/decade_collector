@@ -14,13 +14,13 @@ const Poster = () => {
     };
   }, [currentId]);
   return (
-    <div className="h-[480px] z-0 mb-3 px-10">
-      <div className="relative z-0 mx-7 overflow-hidden rounded-lg md:h-[480.11px]">
+    <div className="h-[480px] z-0 mb-3 px-10 hidden md:block">
+      <div className="relative z-0 mx-7 overflow-hidden rounded-lg md:h-[420px]">
         {DataPoster.map((po, id) => (
           <img
             key={id}
             src={po.img}
-            className={`absolute w-full h-[450px] object-cover duration-700 rounded-lg ${
+            className={`absolute w-full h-[450px] object-cover duration-700 rounded-lg overflow-y-auto ${
               id === currentId ? "opacity-100" : "opacity-0"
             }`}
             alt="..."

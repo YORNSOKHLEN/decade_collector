@@ -5,27 +5,29 @@ import Payment from "../../../assets/icon/payment.png";
 
 const Service = () => {
   return (
-    <div className="p-16 mt-10 justify-items-center ">
-      <ul className="flex mx-4">
-        <li className="">
+    <div className="lg:p-16 mt-10 w-full justify-items-center ">
+      <ul className=" grid grid-cols-2 lg:grid-cols-4 mx-4">
+        <li className=" border-r-2 border-gray-400">
           <div className=" justify-items-center p-5">
             <div>
-              <img src={Item} className="h-40" />
+              <img src={Item} className=" h-20 lg:h-40" />
             </div>
-            <h3 className="text-2xl font-bold uppercase py-3">FREE SHIPPING</h3>
+            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
+              FREE SHIPPING
+            </h3>
             <div className="px-2">
-              <p className="text-sm text-gray-300 justify-items-center">
+              <p className=" text-center text-xs lg:text-sm text-gray-300 justify-items-center">
                 For all Full Payment orders within the USA
               </p>
             </div>
           </div>
         </li>
-        <li className=" border-x-2">
+        <li className=" lg:border-x-2 border-gray-400">
           <div className=" justify-items-center p-5">
             <div>
-              <img src={Item} className="h-40" />
+              <img src={Item} className="h-20 lg:h-40" />
             </div>
-            <h3 className="text-2xl font-bold uppercase py-3">
+            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
               14-DAY RETURNS
             </h3>
             <div className="px-2">
@@ -35,12 +37,14 @@ const Service = () => {
             </div>
           </div>
         </li>
-        <li className=" border-x-2">
+        <li className=" border-r-2 border-t-2 lg:border-t-0 lg:border-x-2 border-gray-400">
           <div className=" justify-items-center p-5">
             <div>
-              <img src={Help} className="h-40" />
+              <img src={Help} className="h-20 lg:h-40" />
             </div>
-            <h3 className="text-2xl font-bold uppercase py-3">HERE TO HELP</h3>
+            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
+              HERE TO HELP
+            </h3>
             <div className="px-2">
               <p className="text-sm text-gray-300 justify-items-center">
                 Send us an email or reach out on social media
@@ -48,12 +52,12 @@ const Service = () => {
             </div>
           </div>
         </li>
-        <li className="">
+        <li className=" border-t-2 lg:border-none border-gray-400">
           <div className=" justify-items-center p-5">
             <div>
-              <img src={Payment} className="h-40" />
+              <img src={Payment} className="h-20 lg:h-40" />
             </div>
-            <h3 className="text-2xl font-bold uppercase py-3">
+            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
               SECURE PAYMENTS
             </h3>
             <div className="px-2">

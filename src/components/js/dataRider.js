@@ -173,15 +173,15 @@ const dataRider = [
   },
   {
     id: 25,
-    text: "Kamen Rider Kuuga",
-    img: Kuuga,
-    link: "/kamen-rider-kuuga",
-  },
-  {
-    id: 26,
     text: "Kamen Rider Agito",
     img: Agito,
     link: "/kamen-rider-agito",
+  },
+  {
+    id: 26,
+    text: "Kamen Rider Kuuga",
+    img: Kuuga,
+    link: "/kamen-rider-kuuga",
   },
   {
     id: 27,

@@ -6,7 +6,7 @@ import React from "react";
 
 const titleOfMovie = [
   {
-    id: "KR",
+    id: "1",
     titleSerie: "Kamen Rider",
     link: "/kamen-rider",
     movies: [
@@ -19,11 +19,13 @@ const titleOfMovie = [
       { title: "Kamen Rider Zi-o", link: "/kamen-rider-zi-o" },
       { title: "Kamen Rider Build", link: "/kamen-rider-build" },
     ],
-    icon: React.createElement("i", { className: "fas fa-chevron-down" }),
+    icon: React.createElement("i", {
+      className: "fas fa-chevron-down hidden md:block",
+    }),
     imgMovie: KR,
   },
   {
-    id: "DS",
+    id: "2",
     titleSerie: "Demon Slayer",
     link: "/demon-slayer",
     movies: [],
@@ -31,7 +33,7 @@ const titleOfMovie = [
     imgMovie: null,
   },
   {
-    id: "JS",
+    id: "3",
     titleSerie: "Jujutsu Kaisen",
     link: "jujutsu-kaisen",
     movies: [],
@@ -39,7 +41,7 @@ const titleOfMovie = [
     imgMovie: null,
   },
   {
-    id: "MCU",
+    id: "4",
     titleSerie: "Marvel Universe",
     link: "/marvel-universe",
     movies: [
@@ -54,11 +56,13 @@ const titleOfMovie = [
       { title: "Black Panther", link: "/black-panther" },
       { title: "Loki", link: "/loki" },
     ],
-    icon: React.createElement("i", { className: "fas fa-chevron-down" }),
+    icon: React.createElement("i", {
+      className: "fas fa-chevron-down hidden md:block",
+    }),
     imgMovie: MCU,
   },
   {
-    id: "DCU",
+    id: "5",
     titleSerie: "DC Universe",
     link: "/dc-universe",
     movies: [
@@ -71,11 +75,13 @@ const titleOfMovie = [
       { title: "Black Adam", link: "/black-adam" },
       { title: "Green Lantern", link: "/green-lantern" },
     ],
-    icon: React.createElement("i", { className: "fas fa-chevron-down" }),
+    icon: React.createElement("i", {
+      className: "fas fa-chevron-down hidden md:block",
+    }),
     imgMovie: DCU,
   },
   {
-    id: "SPS",
+    id: "6",
     titleSerie: "Super Sentai",
     link: "/super-sentai",
     movies: [
@@ -86,7 +92,9 @@ const titleOfMovie = [
       { title: "Kiramager", link: "/kiramager" },
       { title: "Ryusoulger", link: "/ryusoulger" },
     ],
-    icon: React.createElement("i", { className: "fas fa-chevron-down" }),
+    icon: React.createElement("i", {
+      className: "fas fa-chevron-down hidden md:block",
+    }),
     imgMovie: SPSB,
   },
 ];

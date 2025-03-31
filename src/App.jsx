@@ -9,6 +9,8 @@ import Shopping from "./components/jsx/payment/shopping";
 import Decade from "./components/jsx/decade/Decade";
 import KamenRider from "./components/jsx/elements/KamenRider";
 import NotFound from "./components/jsx/elements/NotFound";
+import TestAll from "./components/jsx/elements/TestAll";
+// import Menu from "./components/jsx/elements/menu";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
         <Route path="/kamen-rider" element={<KamenRider />} />
         <Route path="/detail-decade" element={<Decade />} />
         <Route path="/shopping" element={<Shopping />} />
+        <Route path="/testall" element={<TestAll />} />
+        {/* <Route path="/menu" element={<Menu />} /> */}
 
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -1,62 +1,55 @@
 import React from "react";
-import iconSort from "../../../assets/icon/sort.png";
+import { Link } from "react-router-dom";
+import { ShoppingCart, Heart, Menu, X } from "lucide-react";
 import LogoWhite from "../../../assets/images/logo/Logo-White.png";
 import Profile from "../../../assets/images/logo/Profile.jpg";
-import { Link } from "react-router-dom";
-import { ShoppingCart, Heart } from "lucide-react";
-const Head = () => {
+
+const Head = ({ setIsOpen, isOpen }) => {
   return (
-    <>
-      <div
-        id="head"
-        className=" bg-[#06070D] left-0 w-full  flex justify-between items-center "
-      >
-        <div className="flex justify-between gap-10 items-center w-1/2 mx-4 ">
-          <div className="flex justify-between gap-24 items-center">
-            <div className=" hidden">
-              <button>
-                <img src={iconSort} alt="Menu"></img>
-              </button>
-            </div>
-            <div>
-              <Link to={"/"}>
-                <img src={LogoWhite} alt="Logo" className="h-[88px]" />
-              </Link>
-            </div>
-          </div>
-          <div className="right-0 justify-items-start w-[350px] ">
-            <input
-              type="text"
-              placeholder="Search products"
-              className=" w-full border-2 border-[#585858] rounded-md py-1.5 pl-5 pr-10 bg-[#06070D] text-white text-sm"
-            />
-          </div>
-        </div>
-        <div className="items-center flex gap-5">
-          <div className=" items-center">
-            <Link>
-              <Heart className="w-6 h-6 text-white hover:text-[#38A93B]" />
-            </Link>
-          </div>
-          <div className="flex gap-3 items-center border-r-2 pr-4 ">
-            <Link
-              to={"/Cart"}
-              className="flex gap-3 items-center hover:text-[#38A93B]"
-            >
-              <h2 className="text-xl uppercase ">Cart</h2>
-              <ShoppingCart className="w-6 h-6 text-white " />
-            </Link>
-          </div>
-          <div>
-            <img
-              src={Profile}
-              alt="Profile"
-              className="w-10 h-10 rounded-full mx-10 border-2 border-gray-500"
-            />
-          </div>
-        </div>
+    <div className="bg-[#06070D] flex justify-between items-center py-2 px-4 lg:px-5">
+      {/* Mobile Menu Button */}
+      <button onClick={() => setIsOpen(!isOpen)} className="p-2 lg:hidden">
+        {isOpen ? <X size={24} /> : <Menu size={24} />}
+      </button>
+
+      {/* Logo */}
+      <div>
+        <Link to="/" className="lg:mx-auto">
+          <img
+            src={LogoWhite}
+            alt="Logo"
+            className="h-10 md:h-12 lg:h-16 xl:h-16 py-1 md:py-2"
+          />
+        </Link>
       </div>
-    </>
+
+      {/* Desktop Search Bar */}
+      <div className="hidden lg:block w-[350px]">
+        <input
+          type="text"
+          placeholder="Search products"
+          className="w-full border-2 border-[#585858] rounded-md py-1.5 px-5 bg-[#06070D] text-white text-sm"
+        />
+      </div>
+
+      {/* Icons */}
+      <div className="flex items-center gap-3">
+        <Link to="/favorites" className="hidden lg:block">
+          <Heart className="w-5 h-5 text-white hover:text-[#38A93B]" />
+        </Link>
+        <Link
+          to="/cart"
+          className="flex items-center gap-2 hover:text-[#38A93B]"
+        >
+          <ShoppingCart className="w-6 h-6 text-white" />
+        </Link>
+        <img
+          src={Profile}
+          alt="Profile"
+          className="w-10 h-10 rounded-full border-2 border-gray-500"
+        />
+      </div>
+    </div>
   );
 };
 
