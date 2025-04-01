@@ -15,7 +15,7 @@ import Policy from "../../js/policyStore";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0b0c10] mt-20 pt-9 pb-3 items-center">
+    <footer className="bg-[#0b0c10] mt-20 pt-9 pb-3 items-center justify-items-center">
       <div className="flex px-7 md:mx-14">
         {/* <div>
           <a href="#">
