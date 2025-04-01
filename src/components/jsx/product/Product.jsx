@@ -6,7 +6,7 @@ const Product = ({ old_pic, new_pic, Detail, Price, link }) => {
   const [color, setColor] = useState(false);
 
   return (
-    <article className="mb-7 hover:scale-110 transition-transform duration-300 flex flex-col">
+    <article className="mb-7 md:hover:scale-105 lg:hover:scale-110 transition-transform duration-300 flex flex-col">
       <div className="uppercase py-1 mb-3 flex justify-center rounded-sm bg-[#38A93B]">
         in stock
       </div>

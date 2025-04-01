@@ -15,18 +15,18 @@ import Policy from "../../js/policyStore";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0b0c10] mt-8 pt-9 pb-3">
-      <div className="flex justify-evenly mx-5 md:mx-14">
+    <footer className="bg-[#0b0c10] mt-8 pt-9 pb-3 items-center">
+      <div className="flex px-7 md:mx-14">
         {/* <div>
           <a href="#">
             <img src={logoWhite} alt="logo" className="w-[282px] h-[110px]" />
           </a>
         </div> */}
-        <div className="grid grid-cols-2 lg:flex gap-5 lg:gap-10">
+        <div className="grid grid-cols-2 lg:flex gap-5 justify-center lg:gap-10">
           <div>
             <div>
               <h2 className="text-base lg:text-2xl font-semibold lg:font-bold uppercase">
-                Store Policies & Info
+                Store Policies
               </h2>
             </div>
 
@@ -61,7 +61,9 @@ const Footer = () => {
           <div>
             <h2 className="lg:text-2xl font-semibold lg:font-bold">PAYMENT</h2>
             <Link
-              to="#1"
+              onClick={() => {
+                window.open("/decadecollector", "_blank");
+              }}
               className="text-sm md:text-base mt-3 flex gap-2 items-center"
             >
               <img
@@ -72,7 +74,9 @@ const Footer = () => {
               <p>Bakong KHQR</p>
             </Link>
             <Link
-              to="#1"
+              onClick={() => {
+                window.open("/decadecollector", "_blank");
+              }}
               className="text-sm md:text-base mt-3 flex gap-2 items-center"
             >
               <img
@@ -83,7 +87,9 @@ const Footer = () => {
               <p>ABA Bank</p>
             </Link>
             <Link
-              to="#1"
+              onClick={() => {
+                window.open("/decadecollector", "_blank");
+              }}
               className="text-sm md:text-base mt-3 flex gap-2 items-center"
             >
               <img
@@ -105,12 +111,14 @@ const Footer = () => {
                 <span> </span>
                 out to us at
                 <span> </span>
-                <Link
-                  to={"/"}
+                <button
+                  onClick={() => {
+                    window.open("https://t.me/decadecollector", "_blank");
+                  }}
                   className="text-[#38A93B] underline hover:opacity-70"
                 >
                   decadecollector.com
-                </Link>
+                </button>
                 <br />
                 For returns, please use the following{" "}
                 <br className="hidden md:block" />
@@ -143,34 +151,50 @@ const Footer = () => {
             <div className=" lg:flex justify-start gap-3 mt-5 items-center">
               <p>Follow US</p>
               <div className="flex gap-3 mt-2 lg:mt-0">
-                <Link to="#">
+                <button
+                  onClick={() => {
+                    window.open("/decadecollector", "_blank");
+                  }}
+                >
                   <img
                     src={Facebook}
                     alt="Facebook"
                     className="h-7 lg:h-8 hover:opacity-70"
                   />
-                </Link>
-                <Link to="#">
+                </button>
+                <button
+                  onClick={() => {
+                    window.open("/decadecollector", "_blank");
+                  }}
+                >
                   <img
                     src={Tiktok}
                     alt="Tiktok"
                     className="h-7 lg:h-8 hover:opacity-70"
                   />
-                </Link>
-                <Link to="#">
+                </button>
+                <button
+                  onClick={() => {
+                    window.open("/decadecollector", "_blank");
+                  }}
+                >
                   <img
                     src={Instagram}
                     alt="Instagram"
                     className="h-7 lg:h-8 hover:opacity-70"
                   />
-                </Link>
-                <Link to="#">
+                </button>
+                <button
+                  onClick={() => {
+                    window.open("/decadecollector", "_blank");
+                  }}
+                >
                   <img
                     src={Youtube}
                     alt="Youtube"
                     className="h-7 lg:h-8 hover:opacity-70"
                   />
-                </Link>
+                </button>
               </div>
             </div>
           </div>
