@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 
 const SerieMovie = ({ titleSerie, link, movies, icon, imgMovie, id }) => {
   const hoverStyles = {
-    KR: "left-[40px]",
-    MCU: "right-1/4",
-    DCU: "right-1/4",
-    SPS: "right-[60px]",
+    1: "left-[40px]",
+    2: "right-1/4",
+    3: "right-1/4",
+    4: "right-1/4",
+    5: "right-1/4",
+    6: "right-[60px]",
   };
 
   return (
@@ -18,9 +20,11 @@ const SerieMovie = ({ titleSerie, link, movies, icon, imgMovie, id }) => {
 
       {/* Dropdown Menu */}
       <div
-        className={`absolute mt-0 bg-[#16191E] hidden group-hover:block shadow-lg rounded-lg w-auto justify-items-center ${hoverStyles[id]}`}
+        className={`absolute mt-0 bg-[#16191E] hidden group-hover:block shadow-lg rounded-lg w-auto justify-items-center  ${
+          hoverStyles[id] || "left-0"
+        }`}
       >
-        <div className="flex text-lg gap-4 ml-7 ">
+        <div className="flex gap-4 ml-7 ">
           {/* Movie Links */}
           <div className="grid grid-cols-2 gap-x-5 space-y-0">
             {movies &&

@@ -12,12 +12,12 @@ const Service = () => {
             <div>
               <img src={Item} className=" h-20 lg:h-40" />
             </div>
-            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
+            <h3 className=" text-sm lg:text-2xl font-bold uppercase py-3">
               FREE SHIPPING
             </h3>
             <div className="px-2">
               <p className=" text-center text-xs lg:text-sm text-gray-300 justify-items-center">
-                For all Full Payment orders within the USA
+                For all Full Payment orders within the Cambodia
               </p>
             </div>
           </div>
@@ -27,11 +27,11 @@ const Service = () => {
             <div>
               <img src={Item} className="h-20 lg:h-40" />
             </div>
-            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
+            <h3 className=" text-sm lg:text-2xl font-bold uppercase py-3">
               14-DAY RETURNS
             </h3>
             <div className="px-2">
-              <p className="text-sm text-gray-300 justify-items-center">
+              <p className="text-xs text-gray-300 justify-items-center">
                 Return unopened items within 14 days
               </p>
             </div>
@@ -42,11 +42,11 @@ const Service = () => {
             <div>
               <img src={Help} className="h-20 lg:h-40" />
             </div>
-            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
+            <h3 className=" text-sm lg:text-2xl font-bold uppercase py-3">
               HERE TO HELP
             </h3>
             <div className="px-2">
-              <p className="text-sm text-gray-300 justify-items-center">
+              <p className="text-xs text-gray-300 justify-items-center">
                 Send us an email or reach out on social media
               </p>
             </div>
@@ -57,11 +57,11 @@ const Service = () => {
             <div>
               <img src={Payment} className="h-20 lg:h-40" />
             </div>
-            <h3 className=" text-base lg:text-2xl font-bold uppercase py-3">
+            <h3 className=" text-sm lg:text-2xl font-bold uppercase py-3">
               SECURE PAYMENTS
             </h3>
             <div className="px-2">
-              <p className="text-sm text-gray-300 justify-items-center">
+              <p className="text-xs text-gray-300 justify-items-center">
                 We accept ABA Bank, ACLEDA Bank Plc, KHQR & More!
               </p>
             </div>

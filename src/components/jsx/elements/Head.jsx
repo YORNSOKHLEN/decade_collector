@@ -46,7 +46,7 @@ const Head = ({ setIsOpen, isOpen }) => {
         <img
           src={Profile}
           alt="Profile"
-          className="w-10 h-10 rounded-full border-2 border-gray-500"
+          className="w-9 h-9 rounded-full border-2 border-gray-400"
         />
       </div>
     </div>
