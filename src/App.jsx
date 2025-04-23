@@ -1,15 +1,18 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/jsx/elements/Header";
-import Footer from "./components/jsx/elements/Footer";
-import ScrollToTop from "./components/jsx/elements/ScrollToTop";
-import Home from "./components/jsx/elements/Home";
-import Cart from "./components/jsx/payment/Cart";
-import Shopping from "./components/jsx/payment/shopping";
-import Decade from "./components/jsx/decade/Decade";
-import KamenRider from "./components/jsx/elements/KamenRider";
-import NotFound from "./components/jsx/elements/NotFound";
-import TestAll from "./components/jsx/elements/TestAll";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/jsx/elements/Header';
+import Footer from './components/jsx/elements/Footer';
+import ScrollToTop from './components/jsx/elements/ScrollToTop';
+import Home from './components/jsx/elements/Home';
+import Cart from './components/jsx/payment/Cart';
+import Shopping from './components/jsx/payment/shopping';
+import Decade from './components/jsx/decade/Decade';
+import KamenRider from './components/jsx/elements/KamenRider';
+import NotFound from './components/jsx/elements/NotFound';
+import TestAll from './components/jsx/elements/TestAll';
+import Delivery from './components/jsx/payment/Delivery';
+import Payment from './components/jsx/payment/Payment';
+import Login from './components/jsx/Login/Login';
 // import Menu from "./components/jsx/elements/menu";
 
 const App = () => {
@@ -25,6 +28,9 @@ const App = () => {
         <Route path="/detail-decade" element={<Decade />} />
         <Route path="/shopping" element={<Shopping />} />
         <Route path="/testall" element={<TestAll />} />
+        <Route path="/Delivery" element={<Delivery />} />
+        <Route path="/Payment" element={<Payment />} />
+        <Route path="/Login" element={<Login />} />
         {/* <Route path="/menu" element={<Menu />} /> */}
 
         <Route path="*" element={<NotFound />} />

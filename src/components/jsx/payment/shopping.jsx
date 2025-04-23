@@ -1,5 +1,5 @@
-import React from "react";
-import GroupItem from "../product/GroupItem";
+import React from 'react';
+import GroupItem from '../product/GroupItem';
 // Correctly import the image
 
 const Shopping = () => {
