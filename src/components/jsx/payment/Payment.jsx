@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import GroupItem from '../product/GroupItem';
 import visa from '../../../assets/images/logo/visa.png';
 import paypal from '../../../assets/images/logo/paypal.png';
@@ -132,9 +133,12 @@ const Payment = () => {
           </form>
         </div>
         <div className="flex justify-between">
-          <button className=" py-3 mt-10 w-32  bg-blue-800  text-white rounded-lg">
-            Back
-          </button>
+          <Link to={'/Delivery'}>
+            <button className=" py-3 mt-10 w-32  bg-blue-800  text-white rounded-lg">
+              Back
+            </button>
+          </Link>
+
           <button className=" py-3 mt-10 w-32  bg-[#38A93B]  text-white rounded-lg">
             Pay $164.23
           </button>
@@ -143,5 +147,4 @@ const Payment = () => {
     </div>
   );
 };
-
 export default Payment;

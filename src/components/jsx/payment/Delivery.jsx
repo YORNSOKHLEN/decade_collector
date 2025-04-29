@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import GroupItem from '../product/GroupItem';
 
 const Delivery = () => {
@@ -118,12 +119,17 @@ const Delivery = () => {
           </form>
         </div>
         <div className="flex justify-between">
-          <button className=" py-3 mt-10 w-32 bg-blue-800    text-white rounded-lg">
-            Back
-          </button>
-          <button className=" py-3 mt-10 w-32 bg-[#38A93B]  text-white rounded-lg">
-            Continue
-          </button>
+          <Link to={'/shopping'}>
+            <button className=" py-3 mt-10 w-32 bg-blue-800    text-white rounded-lg">
+              Back
+            </button>
+          </Link>
+
+          <Link to={'/Payment'}>
+            <button className=" py-3 mt-10 w-32 bg-[#38A93B]  text-white rounded-lg">
+              Continue
+            </button>
+          </Link>
         </div>
       </div>
     </div>

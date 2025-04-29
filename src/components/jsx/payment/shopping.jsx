@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import GroupItem from '../product/GroupItem';
 // Correctly import the image
 
@@ -137,12 +138,14 @@ const Shopping = () => {
           </div>
 
           {/* Continue Button */}
-          <button
-            type="submit"
-            className="w-full bg-[#38A93B] text-white py-2 rounded font-semibold"
-          >
-            Continue
-          </button>
+          <Link to={'/Delivery'}>
+            <button
+              type="submit"
+              className="w-full bg-[#38A93B] text-white py-2 rounded font-semibold"
+            >
+              Continue
+            </button>
+          </Link>
         </form>
       </div>
     </div>
