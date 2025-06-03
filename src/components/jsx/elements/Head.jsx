@@ -43,11 +43,13 @@ const Head = ({ setIsOpen, isOpen }) => {
         >
           <ShoppingCart className="w-6 h-6 text-white" />
         </Link>
-        <img
-          src={Profile}
-          alt="Profile"
-          className="w-9 h-9 rounded-full border-2 border-gray-400"
-        />
+        <Link to="/login">
+          <img
+            src={Profile}
+            alt="Profile"
+            className="w-9 h-9 rounded-full border-2 border-gray-400"
+          />
+        </Link>
       </div>
     </div>
   );

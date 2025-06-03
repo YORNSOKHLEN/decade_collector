@@ -1,5 +1,4 @@
-import React from 'react';
-import onePiece from '../../../assets/images/onePiece/onePiece.jpg';
+import onePiece from "../../../assets/images/onePiece/onePiece.jpg";
 
 const Login = () => {
   return (
