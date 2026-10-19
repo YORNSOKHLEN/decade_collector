@@ -12,7 +12,7 @@ import NotFound from "./components/jsx/elements/NotFound";
 import TestAll from "./components/jsx/elements/TestAll";
 import Delivery from "./components/jsx/payment/Delivery";
 import Payment from "./components/jsx/payment/Payment";
-import Login from "./components/jsx/login/Login";
+import Login from "./components/jsx/Login/Login";
 // import Menu from "./components/jsx/elements/menu";
 
 const App = () => {
